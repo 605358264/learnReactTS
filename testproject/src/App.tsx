@@ -6,6 +6,8 @@ import routes from "./routes";
 // 引入包管理工具
 import { renderRoutes, RouteConfig } from "react-router-config";
 import "./App.css";
+// 引入connect连接组件
+import {connect} from "react-redux"
  
 function App() {
   return (
@@ -17,5 +19,5 @@ function App() {
     </div>
   );
 }
- 
-export default App;
+//进行连接
+export default connect((props,state)=>Object.assign({},props,state),{})(App);
