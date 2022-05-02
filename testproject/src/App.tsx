@@ -12,8 +12,9 @@ import {connect} from "react-redux"
 function App() {
   return (
     <div className="App">
+      {/*
       <Navbar />
- 
+      */}
       {/* 设置routes的类型为RouteConfig[]，否则报错 */}
       {renderRoutes(routes as RouteConfig[])}
     </div>
