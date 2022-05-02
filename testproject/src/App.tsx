@@ -6,6 +6,7 @@ import routes from "./routes";
 // 引入包管理工具
 import { renderRoutes, RouteConfig } from "react-router-config";
 import "./App.css";
+import 'antd/dist/antd.css';
 // 引入connect连接组件
 import {connect} from "react-redux"
  
